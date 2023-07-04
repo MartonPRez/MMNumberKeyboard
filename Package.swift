@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "MMNumberKeyboard",
     platforms: [
-        .iOS(.v8)
+        .iOS(.v10)
     ],
     products: [
         .library(
@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "MMNumberKeyboard",
-            path: "MMNumberKeyboard",
+            path: "Classes",
             publicHeadersPath: "."),
     ]
 )
